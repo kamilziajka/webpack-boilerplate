@@ -1,0 +1,31 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.1",
+  "description": "webpack-boilerplate",
+  "scripts": {
+    "build": "webpack -p",
+    "build-dev": "webpack -d",
+    "start": "pm2 start --no-daemon process.json",
+    "start-dev": "webpack-dev-server -d --watch --hot"
+  },
+  "author": "kazet",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.7",
+    "file-loader": "1.1.5",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "style-loader": "0.19.0",
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.9.1"
+  },
+  "dependencies": {
+    "pm2": "2.7.1"
+  }
+}

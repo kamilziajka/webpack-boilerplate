@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "webpack-boilerplate",
+      "script": "serve",
+      "instances": 0,
+      "exec_mode": "cluster",
+      "env": {
+        "PM2_SERVE_PATH": "lib",
+        "PM2_SERVE_PORT": 80
+      }
+    }
+  ]
+}
